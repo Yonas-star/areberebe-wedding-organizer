@@ -7,6 +7,14 @@ import './Footer.css';
 const Footer = ({ ownerName, developerName }) => {
   const { t } = useTranslation();
   
+  // Prevent default behavior for social links that don't have real URLs yet
+  const handleSocialClick = (e, platform) => {
+    e.preventDefault();
+    // You can add actual social media URLs here when you have them
+    console.log(`Open ${platform} page - add actual URL when available`);
+    // Example: window.open('https://facebook.com/yourpage', '_blank');
+  };
+  
   return (
     <footer className="footer">
       <div className="footer-top">
@@ -22,9 +30,33 @@ const Footer = ({ ownerName, developerName }) => {
               </Link>
               <p>{t('footer.description', 'Creating beautiful and sacred wedding ceremonies that honor tradition and celebrate love.')}</p>
               <div className="footer-social">
-                <a href="#" className="social-link"><FaFacebook /></a>
-                <a href="#" className="social-link"><FaInstagram /></a>
-                <a href="#" className="social-link"><FaYoutube /></a>
+                <a 
+                  href="https://facebook.com" 
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => handleSocialClick(e, 'Facebook')}
+                >
+                  <FaFacebook />
+                </a>
+                <a 
+                  href="https://instagram.com" 
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => handleSocialClick(e, 'Instagram')}
+                >
+                  <FaInstagram />
+                </a>
+                <a 
+                  href="https://youtube.com" 
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => handleSocialClick(e, 'YouTube')}
+                >
+                  <FaYoutube />
+                </a>
               </div>
             </div>
 
