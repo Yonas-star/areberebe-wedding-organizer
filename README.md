@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Areberebe — Wedding Organizer (Website)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the Areberebe Wedding Organizer website, a React application focused on spiritual wedding planning services. The site supports English and Amharic translations and includes pages for Home, Services, About, Contact, and a Gallery component.
 
-## Available Scripts
+Key features
+- Multi-language support (English / Amharic) using `react-i18next`
+- Responsive navigation with language switcher
+- Pages: Home, Services, About, Contact, Gallery
+- Reusable components for Footer, Navbar, Gallery, Forms
 
-In the project directory, you can run:
+Quick start
+1. Install dependencies
+```bash
+npm install
+```
+2. Run the development server
+```bash
+npm start
+```
+Open http://localhost:3000
 
-### `npm start`
+Build for production
+```bash
+npm run build
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+i18n / translations
+- English translations are in `src/i18n/locales/en/translation.json`
+- Amharic translations are in `src/i18n/locales/am/translation.json`
+- To add or update translations, edit these files and keep keys consistent across locales.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Adding gallery media
+- Add images to `src/assets/images/weddings` and videos to `src/assets/videos`.
+- The `Gallery` component reads `images` and `videos` props — you can provide media data from a page or API.
 
-### `npm test`
+Git & deployment
+- Initialize the repo and push to GitHub (example):
+```bash
+git init -b main
+git add -A
+git commit -m "Initial commit: Areberebe website"
+git remote add origin https://github.com/<your-username>/areberebe-wedding-organizer.git
+git push -u origin main
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributing
+- Open a branch for your changes: `git checkout -b feat/my-change`
+- Commit logically and create a pull request for review.
 
-### `npm run build`
+Notes
+- This project was bootstrapped with Create React App.
+- If you plan to deploy, configure environment variables and adjust build settings as needed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+License
+- Add a license file if you intend to open-source this project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contact
+- For questions or help updating translations, open an issue or contact the maintainer.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
