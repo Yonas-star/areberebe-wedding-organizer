@@ -57,3 +57,48 @@ License
 Contact
 - For questions or help updating translations, open an issue or contact the maintainer.
 
+Screenshots
+--
+Add screenshots to the `docs/` folder and reference them here. Example:
+
+![Home page](docs/home.png)
+
+Deployment
+--
+You can deploy the site to GitHub Pages, Vercel, or Netlify.
+
+- GitHub Pages (using `gh-pages`):
+
+```bash
+npm install --save-dev gh-pages
+# add to package.json:
+# "homepage": "https://<your-username>.github.io/areberebe-wedding-organizer",
+# and scripts: "predeploy": "npm run build", "deploy": "gh-pages -d build"
+npm run deploy
+```
+
+- Vercel: Install the Vercel CLI and run `vercel` in the project root, or connect the GitHub repo in the Vercel dashboard.
+
+Contributing
+--
+- Fork the repo and create a feature branch: `git checkout -b feat/describe-change`
+- Commit changes with clear messages and open a Pull Request for review.
+- Keep translations in sync: add new keys to both `en` and `am` locale files.
+
+License
+--
+This project does not include a license file yet. If you want to open-source it, add a `LICENSE` file (for example, MIT):
+
+```
+MIT License
+Copyright (c) YEAR Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+```
+
+
