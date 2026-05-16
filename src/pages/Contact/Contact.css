@@ -1,0 +1,16 @@
+.contact-page {
+  padding: 60px 20px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.page-description {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #666;
+  font-size: 18px;
+}

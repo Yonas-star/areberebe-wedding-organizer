@@ -1,0 +1,46 @@
+.about-page {
+  padding: 60px 20px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h2 {
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.about-card p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-card ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.about-card ul li:last-child {
+  border-bottom: none;
+}
+
+.icon-heart {
+  color: #ff4444;
+}

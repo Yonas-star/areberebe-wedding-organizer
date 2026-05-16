@@ -1,0 +1,11 @@
+/* Page-level gallery styles: import component styles to avoid duplication */
+@import '../../components/Gallery/Gallery.css';
+
+.gallery-page .page-title {
+  margin-bottom: 0.5rem;
+}
+
+.gallery-page .page-subtitle {
+  margin-bottom: 1.5rem;
+  color: #666;
+}

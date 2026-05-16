@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "badge": "Spiritual Wedding Organizer",
+    "title_line1": "Your Dream",
+    "title_line2": "Spiritual Wedding",
+    "title_line3": "Starts Here",
+    "description": "Experience the divine union of love and tradition with our meticulously crafted wedding ceremonies. Led by our spiritual leader, we bring your sacred celebration to life.",
+    "start_planning": "Start Planning",
+    "our_services": "Our Services",
+    "stat1": "Weddings Organized",
+    "stat2": "Years Experience",
+    "stat3": "Satisfaction"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "subtitle": "Making every moment sacred and memorable",
+    "spiritual": {
+      "title": "Spiritual Guidance",
+      "desc": "Deep understanding of spiritual traditions and ceremonies"
+    },
+    "church": {
+      "title": "Church Coordination",
+      "desc": "Seamless church ceremony arrangements and coordination"
+    },
+    "music": {
+      "title": "Sacred Music",
+      "desc": "Professional choir and spiritual music performances"
+    },
+    "photo": {
+      "title": "Precious Memories",
+      "desc": "Professional photography and videography services"
+    },
+    "decoration": {
+      "title": "Elegant Decoration",
+      "desc": "Beautiful and meaningful wedding decorations"
+    },
+    "planning": {
+      "title": "Perfect Planning",
+      "desc": "Attention to every detail for a flawless ceremony"
+    }
+  },
+  "cta": {
+    "title": "Ready to Begin Your Sacred Journey?",
+    "subtitle": "Let us help you create the wedding ceremony you've always dreamed of",
+    "button": "Contact Us Today"
+  },
+  "services": {
+    "hero_title": "Our Premium Services",
+    "hero_subtitle": "Every detail crafted with love and spiritual devotion",
+    "book_now": "Book Now",
+    "cta_title": "Ready to Plan Your Perfect Wedding?",
+    "cta_subtitle": "Let our experienced team bring your dream wedding to life",
+    "cta_button": "Start Your Journey",
+    "items": {
+      "planning": {
+        "title": "Complete Wedding Planning",
+        "desc": "End-to-end wedding organization with spiritual guidance and professional coordination",
+        "features": ["Timeline Management", "Vendor Coordination", "Budget Planning", "Spiritual Guidance"]
+      },
+      "ceremony": {
+        "title": "Church Ceremony",
+        "desc": "Sacred and beautiful church ceremony arrangements following spiritual traditions",
+        "features": ["Church Booking", "Ceremony Coordination", "Religious Requirements", "Processional Planning"]
+      },
+      "choir": {
+        "title": "Sacred Music & Choir",
+        "desc": "Professional choir performances and spiritual music for your ceremony",
+        "features": ["Professional Choir", "Organist Arrangement", "Hymn Selection", "Sound System"]
+      },
+      "photography": {
+        "title": "Photography & Video",
+        "desc": "Capture every precious moment of your sacred ceremony",
+        "features": ["Professional Photography", "Video Coverage", "Photo Album", "Digital Gallery"]
+      },
+      "decor": {
+        "title": "Elegant Decoration",
+        "desc": "Beautiful and meaningful decorations for church and reception",
+        "features": ["Floral Arrangements", "Church Decoration", "Aisle Setup", "Altar Design"]
+      },
+      "transport": {
+        "title": "Luxury Transportation",
+        "desc": "Elegant transportation for the wedding party and guests",
+        "features": ["Bridal Car", "Guest Transport", "Airport Pickup", "Logistics Management"]
+      },
+      "catering": {
+        "title": "Catering Services",
+        "desc": "Delicious catering options for your wedding celebration",
+        "features": ["Menu Planning", "Traditional Cuisine", "Dietary Options", "Service Staff"]
+      },
+      "guest": {
+        "title": "Guest Management",
+        "desc": "Professional coordination for all your wedding guests",
+        "features": ["Invitation Design", "RSVP Management", "Seating Arrangement", "Guest Assistance"]
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "welcome": "Welcome to Areberebe Wedding Organizer",
+    "welcome_desc": "We are a spiritual wedding organization company dedicated to making your wedding ceremony beautiful, meaningful, and memorable. Our team, led by ?? ????? ??? ???, brings years of experience in organizing spiritual wedding ceremonies.",
+    "mission": "Our Mission",
+    "mission_desc": "To provide exceptional wedding organization services that honor spiritual traditions while creating unforgettable moments for couples and their families.",
+    "values": "Our Values",
+    "values_list": ["Spiritual Integrity", "Professional Excellence", "Personalized Service", "Attention to Detail", "Cultural Respect"],
+    "contact_info": "Contact Information",
+    "owner": "Owner",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Fill out the form below to start planning your spiritual wedding ceremony",
+    "form": {
+      "title": "Wedding Planning Request Form",
+      "bride": "Bride's Full Name",
+      "groom": "Groom's Full Name",
+      "date": "Wedding Date",
+      "venue": "Venue",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Additional Message",
+      "submit": "Submit Request",
+      "submitting": "Submitting..."
+    }
+  },
+  "footer": {
+    "description": "Creating beautiful and sacred wedding ceremonies that honor tradition and celebrate love.",
+    "quick_links": "Quick Links",
+    "our_services": "Our Services",
+    "contact": "Contact Us",
+    "owner": "Owner",
+    "rights": "Areberebe Wedding Organizer. All rights reserved.",
+    "developed": "Developed with love by"
+  },
+  "language": {
+    "switch": "Switch to Amharic"
+  }
+}
