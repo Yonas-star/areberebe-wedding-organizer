@@ -6,6 +6,7 @@ import './Footer.css';
 
 const Footer = ({ ownerName, developerName }) => {
   const { t } = useTranslation();
+  
   return (
     <footer className="footer">
       <div className="footer-top">
@@ -16,10 +17,10 @@ const Footer = ({ ownerName, developerName }) => {
                 <FaHeart className="footer-heart" />
                 <div>
                   <h3>Areberebe</h3>
-                  <span>{t('hero.badge')}</span>
+                  <span>Wedding Organizer</span>
                 </div>
               </Link>
-              <p>{t('footer.description')}</p>
+              <p>{t('footer.description', 'Creating beautiful and sacred wedding ceremonies that honor tradition and celebrate love.')}</p>
               <div className="footer-social">
                 <a href="#" className="social-link"><FaFacebook /></a>
                 <a href="#" className="social-link"><FaInstagram /></a>
@@ -28,33 +29,33 @@ const Footer = ({ ownerName, developerName }) => {
             </div>
 
             <div className="footer-links">
-              <h4>{t('footer.quick_links')}</h4>
+              <h4>{t('footer.quick_links', 'Quick Links')}</h4>
               <ul>
-                <li><Link to="/">{t('nav.home')}</Link></li>
-                <li><Link to="/services">{t('nav.services')}</Link></li>
-                <li><Link to="/about">{t('nav.about')}</Link></li>
-                <li><Link to="/contact">{t('nav.contact')}</Link></li>
+                <li><Link to="/">{t('nav.home', 'Home')}</Link></li>
+                <li><Link to="/services">{t('nav.services', 'Services')}</Link></li>
+                <li><Link to="/about">{t('nav.about', 'About')}</Link></li>
+                <li><Link to="/contact">{t('nav.contact', 'Contact')}</Link></li>
               </ul>
             </div>
 
             <div className="footer-links">
-              <h4>{t('footer.our_services')}</h4>
+              <h4>{t('footer.our_services', 'Our Services')}</h4>
               <ul>
-                <li><a href="#">{t('services.items.planning.title')}</a></li>
-                <li><a href="#">{t('services.items.ceremony.title')}</a></li>
-                <li><a href="#">{t('services.items.choir.title')}</a></li>
-                <li><a href="#">{t('services.items.photography.title')}</a></li>
-                <li><a href="#">{t('services.items.decor.title')}</a></li>
+                <li><Link to="/services">{t('services.items.planning.title', 'Complete Wedding Planning')}</Link></li>
+                <li><Link to="/services">{t('services.items.ceremony.title', 'Church Ceremony')}</Link></li>
+                <li><Link to="/services">{t('services.items.choir.title', 'Sacred Music & Choir')}</Link></li>
+                <li><Link to="/services">{t('services.items.photography.title', 'Photography & Video')}</Link></li>
+                <li><Link to="/services">{t('services.items.decor.title', 'Elegant Decoration')}</Link></li>
               </ul>
             </div>
 
             <div className="footer-contact">
-              <h4>{t('contact.title')}</h4>
+              <h4>{t('contact.title', 'Contact Us')}</h4>
               <p><FaPhone className="contact-icon" /> +251-XXX-XXXXXX</p>
               <p><FaEnvelope className="contact-icon" /> info@areberebe.com</p>
               <p><FaMapMarkerAlt className="contact-icon" /> Addis Ababa, Ethiopia</p>
               <div className="footer-owner">
-                <p><strong>{t('about.owner')}:</strong> {ownerName}</p>
+                <p><strong>{t('about.owner', 'Owner')}:</strong> {ownerName}</p>
               </div>
             </div>
           </div>
@@ -64,9 +65,9 @@ const Footer = ({ ownerName, developerName }) => {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-content">
-            <p>&copy; {new Date().getFullYear()} {t('footer.rights')}</p>
+            <p>&copy; {new Date().getFullYear()} {t('footer.rights', 'Areberebe Wedding Organizer. All rights reserved.')}</p>
             <p className="developer-credit">
-              {t('footer.developed')} <FaHeart className="credit-heart" /> {developerName}
+              {t('footer.developed', 'Developed with love by')} <FaHeart className="credit-heart" /> {developerName}
             </p>
           </div>
         </div>

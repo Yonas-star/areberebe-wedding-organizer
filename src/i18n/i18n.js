@@ -20,7 +20,9 @@ i18n
     debug: false,
     interpolation: {
       escapeValue: false
-    }
+    },
+    returnObjects: true,
+    returnEmptyString: false
   });
 
 export default i18n;
