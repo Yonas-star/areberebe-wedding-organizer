@@ -16,6 +16,10 @@ const Home = () => {
     });
   }, []);
 
+  const slides = [
+    'https://i.pinimg.com/736x/7a/81/53/7a81536dc150bf4377f66daf799a268b.jpg',
+    'https://i.pinimg.com/736x/e7/32/14/e7321437cbffd1c6ae2d3a62d8a8fa06.jpg'
+  ];
   const particles = Array.from({ length: 20 }, (_, i) => ({
     id: i,
     left: Math.random() * 100 + '%',
@@ -36,6 +40,15 @@ const Home = () => {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
+        <div className="slideshow">
+          {slides.map((src, i) => (
+            <div
+              key={i}
+              className={`slide slide-${i + 1}`}
+              style={{ backgroundImage: `url(${src})` }}
+            />
+          ))}
+        </div>
         <div className="hero-overlay"></div>
         <div className="hero-particles">
           {particles.map((particle) => (
